@@ -1,6 +1,8 @@
 import pyautogui
+import os
 def sayhello():
-    print("hello")
+    print(os.getcwd())
+    
 
 
 sayhello()
